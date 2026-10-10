@@ -1,0 +1,37 @@
+# Disease configuration: Lung adenocarcinoma (LUAD)
+# Weights are the SAME pre-registered PDAC weights, frozen — no re-tuning per disease.
+# The LUAD run is the generality test: does one scoring scheme transfer?
+
+disease_code: LUAD
+disease_name: Lung adenocarcinoma
+tcga_detailed_category: Lung Adenocarcinoma
+gtex_tissue: Lung
+
+xena_hub: https://gdc.xenahubs.net
+xena_mutation_dataset: TCGA-LUAD.somaticmutation_wxs.tsv
+xena_cna_dataset: TCGA-LUAD.gene-level_ascat2.tsv
+xena_survival_dataset: TCGA-LUAD.survival.tsv
+xena_clinical_dataset: TCGA-LUAD.clinical.tsv
+
+depmap_lineage: lung
+depmap_lineage_subtype: NSCLC
+depmap_lineage_sub_subtype: NSCLC_adenocarcinoma
+
+opentargets_table: null   # null -> reuse shared disease-agnostic table
+
+benchmark: configs/benchmarks/luad_benchmark.csv
+
+weights:
+  mut: 0.20
+  amp: 0.10
+  dep: 0.20
+  logFC: 0.10
+  surv: 0.10
+  loeuf: 0.10
+  tissue: 0.10
+  tract: 0.10
+
+paths:
+  data_dir: /workspace/pdac_ai/data
+  work_dir: /workspace/MultiAxis-Oncology/work/luad
+  out_dir: /mnt/results/oncotarget/luad

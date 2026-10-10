@@ -1,0 +1,38 @@
+# Disease configuration: Pancreatic ductal adenocarcinoma (PDAC)
+# Weights are PRE-REGISTERED (frozen before the v2 full-genome run).
+# Do not tune weights to improve benchmark concordance.
+
+disease_code: PAAD
+disease_name: Pancreatic ductal adenocarcinoma
+tcga_detailed_category: Pancreatic Adenocarcinoma
+gtex_tissue: Pancreas
+
+xena_hub: https://gdc.xenahubs.net
+xena_mutation_dataset: TCGA-PAAD.somaticmutation_wxs.tsv
+xena_cna_dataset: TCGA-PAAD.gene-level_ascat2.tsv
+xena_survival_dataset: TCGA-PAAD.survival.tsv
+xena_clinical_dataset: TCGA-PAAD.clinical.tsv
+
+depmap_lineage: pancreas
+depmap_lineage_subtype: exocrine
+
+# Open Targets tractability is a target-level (disease-agnostic) property;
+# the genome-wide table is computed once and reused across diseases.
+opentargets_table: null   # null -> reuse shared table
+
+benchmark: configs/benchmarks/pdac_benchmark.csv
+
+weights:
+  mut: 0.20
+  amp: 0.10
+  dep: 0.20
+  logFC: 0.10
+  surv: 0.10
+  loeuf: 0.10
+  tissue: 0.10
+  tract: 0.10
+
+paths:
+  data_dir: /workspace/pdac_ai/data
+  work_dir: /workspace/MultiAxis-Oncology/work/pdac
+  out_dir: /mnt/results/oncotarget/pdac

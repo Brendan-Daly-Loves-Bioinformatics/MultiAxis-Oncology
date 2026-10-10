@@ -1,0 +1,92 @@
+gene,evidence_source
+KRAS,approved inhibitors (sotorasib/adagrasib for G12C); near-universal PDAC driver
+TP53,core PDAC TCGA driver (mutated in ~70%); target of reactivation therapies
+CDKN2A,core PDAC TCGA driver (deleted in ~50%); CDK4/6 inhibitors standard in other cancers
+SMAD4,core PDAC TCGA driver (deleted in ~50%)
+BRCA1,homologous recombination deficiency; PARP inhibitors (olaparib approved)
+BRCA2,homologous recombination deficiency; PARP inhibitors (olaparib approved)
+PALB2,homologous recombination deficiency; PARP inhibitor trials
+ATM,homologous recombination; PARP/platinum trials in PDAC
+EGFR,erlotinib approved for PDAC (combination with gemcitabine)
+ERBB2,HER2 therapies in PDAC trials; trastuzumab in selected tumors
+MET,amplification target; capmatinib/tepotinib in PDAC case series/trials
+BRAF,"BRAF inhibitors in BRAF-mutant PDAC (case series, approved in other cancers)"
+NTRK1,"TRK inhibitors (larotrectinib/entrectinib approved, tissue-agnostic)"
+NTRK2,"TRK inhibitors (larotrectinib/entrectinib approved, tissue-agnostic)"
+NTRK3,"TRK inhibitors (larotrectinib/entrectinib approved, tissue-agnostic)"
+ALK,ALK inhibitors approved tissue-agnostic
+ROS1,ROS1 inhibitors approved tissue-agnostic
+RET,"RET inhibitors (selpercatinib approved, tissue-agnostic)"
+NRG1,NERA trials (zenocutuzumab) in NRG1-fusion cancers
+FGFR2,FGFR inhibitors in FGFR2-fusion biliary/PDAC trials
+PIK3CA,PI3K inhibitors (alpelisib approved in breast; PDAC trials)
+AKT1,AKT inhibitors (capivasertib; PDAC trials)
+MTOR,mTOR inhibitors; everolimus approved in pNET (adjacent indication)
+TGFBR2,"TGF-beta pathway inhibitors in PDAC trials (bintrafusp, vactosertib)"
+IDH1,ividosinib/olutasidenib in IDH1-mutant tumors
+CDK4,CDK4/6 inhibitors (abemaciclib/palbociclib; PDAC trials with CDKN2A loss)
+CDK6,CDK4/6 inhibitors (PDAC trials)
+PARP1,PARP inhibitor target (olaparib approved for gBRCA PDAC maintenance)
+TYMS,fluoropyrimidine mechanism (5-FU/gemcitabine backbone; TS inhibition)
+RRM1,gemcitabine mechanism (RRM1 inhibition; nelfinavir combination studies)
+TOP1,irinotecan approved for PDAC (liposomal irinotecan + 5FU)
+TOP2A,etoposide/anthracyclines used in PDAC regimens
+TUBB,taxanes (nab-paclitaxel approved for PDAC)
+TUBB3,taxanes (nab-paclitaxel approved for PDAC)
+HDAC1,HDAC inhibitors in PDAC trials
+HDAC2,HDAC inhibitors in PDAC trials
+HDAC3,HDAC inhibitors in PDAC trials
+KAT2A,lysine acetyltransferase; emerging inhibitor programs
+DNMT1,hypomethylating agents; decitabine combinations in trials
+CLDN18,zolbetuximab (approved in gastric; PDAC trials) - use symbol CLDN18
+TACSTD2,datumatumab deruxtecan (TROP2 ADC; approved in breast/lung; PDAC trials)
+TROP2,datumatumab deruxtecan (TROP2 ADC; approved in breast/lung; PDAC trials)
+FOLR1,mirvetuximab soravtansine class (FR-alpha ADC); PDAC trials
+FOLR3,folate-receptor targeting programs
+MUC1,carcinoembryonic antigen family; MUC1 ADC/vaccine trials in PDAC
+CEACAM5,CAR-T and ADC programs (labetuzumab govitecan class)
+EPCAM,epithelial cell adhesion molecule; CAR-T/ADC programs
+PROM1,CD133; CAR-T and vaccine programs in PDAC
+ALDH1A1,cancer stem cell marker; ALDH inhibitor trials
+CD44,stem-cell marker; targeted therapies in trials
+STEAP1,STEAP1 CAR-T/ADC programs in PDAC
+GPNMB,glembatumumab vedotin class ADC
+ROR1,cirmtuzumab/zilovertamab; PDAC trials
+DLL3,tarlatamab (approved in SCLC); DLL3-targeted programs
+SSTR2,"lutetium-177 dotatate (approved in GEP-NETs, pancreatic NETs)"
+MAGEA3,cellular therapies (afamitresgene autoleucel class)
+MAGEA4,cellular therapies (afamitresgene autoleucel approved)
+PRAME,TCR therapy programs (tebentafusp class)
+WT1,WT1 vaccine/TCR programs in PDAC trials
+KRASG12D,specific: G12D-targeted TCR/ADC programs (in trials)
+RAF1,RAF1 kinase inhibitor (belvarafenib class); PDAC dependency shown by DepMap
+YAP1,"YAP/TEAD inhibitors in PDAC trials (tepotinib class, verteporfin studies)"
+WWTR1,YAP/TAZ pathway; TEAD inhibitor trials
+TEAD1,YAP/TEAD inhibitor trials (VT3989 class)
+TEAD2,YAP/TEAD inhibitor trials (VT3989 class)
+MYC,validated preclinical dependency; MYC degrader programs (OMO-103 trials)
+MAX,MYC-network target; preclinical validation
+AURKA,aurora kinase inhibitors (alisertib) in PDAC trials
+AURKB,aurora kinase inhibitors in trials
+PLK1,polo-like kinase inhibitors (volasertib) in trials
+CHEK1,CHEK1 inhibitors (prexasertib) in PDAC trials
+WEE1,WEE1 inhibitor (adavosertib) in PDAC trials
+ATR,ATR inhibitors (berzosertib) in PDAC trials
+DNA-PK,DNA-PK inhibitors in radiation combination trials
+PRKDC,DNA-PK inhibitors in radiation combination trials
+NOTCH1,NOTCH pathway inhibitors in PDAC trials
+NOTCH3,NOTCH pathway inhibitors in PDAC trials
+JAG1,NOTCH ligand; pathway programs
+SHH,hedgehog pathway (vismodegib class; PDAC stroma trials)
+SMO,hedgehog pathway (vismodegib/sonidegib approved in other cancers)
+CXCR4,CXCR4 antagonist (plerixafor/motolimod studies; PDAC trials)
+IL6R,IL-6 pathway (tocilizumab/siltuximab) in PDAC combination trials
+CSF1R,CSF1R inhibitors (cabiralizumab) in PDAC trials
+CD274,PD-L1 (pembrolizumab approved for MSI-H/dMMR PDAC)
+PDCD1,PD-1 (pembrolizumab approved for MSI-H/dMMR PDAC)
+CTLA4,ipilimumab combinations in trials
+TIGIT,TIGIT inhibitors in PDAC trials
+LAG3,LAG3 inhibitors (relatlimab approved in melanoma)
+VTCN1,B7-H4; first-in-class B7-H4 ADCs in PDAC trials
+FAP,fibroblast activation protein; FAP CAR-T/TEG programs in PDAC
+MSLN,mesothelin ADC/CAR-T (mature phase trials in PDAC)

@@ -1,0 +1,28 @@
+[project]
+name = "multiaxisoncology"
+version = "0.1.0"
+description = "An open-source, benchmark-validated framework for multi-axis cancer target prioritization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Brendan Daly" }]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.30"]
+r = ["r-base"]
+
+[project.scripts]
+multiaxisoncology = "multiaxisoncology.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
