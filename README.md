@@ -2,20 +2,21 @@
 
 An open-source, benchmark-validated framework for multi-axis cancer target
 prioritization. It scores every protein-coding gene for a given cancer type
-across eight evidence axes — somatic mutation frequency, CRISPR dependency,
+across eight evidence axes; somatic mutation frequency, CRISPR dependency,
 amplification, differential expression, survival association, germline
-constraint (LOEUF), tissue expression, and druggability — and combines them
+constraint (LOEUF), tissue expression, and druggability. It then combines them
 into a single transparent, pre-registered ranking.
 
-**What this is not:** it is not machine learning. The engine is a
-deterministic, weighted-percentile scoring function with frozen weights and a
-pre-registered validation protocol. Every intermediate value is inspectable in
-the output tables.
+**What this is not:** This is not machine learning or artificial intelligence of 
+any kind. The engine is a deterministic, weighted-percentile scoring function 
+with frozen weights and a pre-registered validation protocol. Every intermediate
+value is inspectable in the output tables. This is for maximum reproducibility
+and accuracy.
 
 ## Validation
 
 Benchmarks are literature-curated gene sets (91 PDAC, 75 LUAD) used only for
-validation — never for tuning. Weights were frozen before any ranking was
+validation, not for tuning. Weights were frozen before any ranking was
 computed and are shared across cancer types.
 
 | Cancer | Genes scored | Benchmark AUC | p | Top-50 enrichment |
