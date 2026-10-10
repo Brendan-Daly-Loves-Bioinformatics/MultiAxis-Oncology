@@ -1,8 +1,8 @@
 # MultiAxis Oncology
 
 An open-source, benchmark-validated framework for multi-axis cancer target
-prioritization. It scores every protein-coding gene for a given cancer type
-across eight evidence axes; somatic mutation frequency, CRISPR dependency,
+prioritization. It scores every detectably expressed protein-coding gene for a given cancer type
+across eight evidence axes: somatic mutation frequency, CRISPR dependency,
 amplification, differential expression, survival association, germline
 constraint (LOEUF), tissue expression, and druggability. It then combines them
 into a single transparent, pre-registered ranking.
@@ -10,8 +10,8 @@ into a single transparent, pre-registered ranking.
 **What this is not:** This is not machine learning or artificial intelligence of 
 any kind. The engine is a deterministic, weighted-percentile scoring function 
 with frozen weights and a pre-registered validation protocol. Every intermediate
-value is inspectable in the output tables. This is for maximum reproducibility
-and accuracy.
+value is inspectable in the output tables. This design makes every result fully
+reproducible.
 
 ## Validation
 
